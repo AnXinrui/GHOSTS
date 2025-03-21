@@ -25,7 +25,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --local user.name "${{ github.actor }}"
+        git config --local user.name "xinrui.an"
+        git config --local user.email "xinrui.an@lkcoffee.com"
         git add README.md
         git commit -m "chore: auto update README.md with latest changes" || exit 0
         git push 
