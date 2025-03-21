@@ -2,7 +2,7 @@ name: Push Trigger Run
 
 on:
   push:
-    branches: [ main, master ]  # 当main或master分支有push时触发
+    branches: [ master ]  # 当 master 分支有push时触发
 
 jobs:
   build-and-run:
