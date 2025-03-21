@@ -12,6 +12,11 @@ Last Update Time: {{last_update_time}}
 
 ## How to Use
 
+Method 1:
+
+use [SwitchHosts](https://github.com/oldj/SwitchHosts)
+
+Method 2:
 1. Copy the hosts content above
 2. Add it to your system's hosts file:
    - Windows: `C:\Windows\System32\drivers\etc\hosts`
@@ -23,7 +28,7 @@ This project is licensed under the MIT License. It is a re-implementation and im
 
 > MIT License 
 >
-> This project is based on the following project codebase: -OriginalProjectName - https://github.com/original-author/original-repo 
+> This project is based on the following project codebase: -OriginalProjectName - https://github.com/fliu2476/gh-hosts
 >
 > Original project copyright notice:
 >
