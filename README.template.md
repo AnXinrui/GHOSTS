@@ -61,14 +61,14 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Git Commit Message规范：
 
-- FEAT: 增删改一个功能
-- FIX: 修复一个Bug
-- DOCS: 增删改文档
-- STYLE: 代码美化或者其它不影响功能的代码修改
-- REFACTOR: 重构一个功能
-- PERF: 优化一个功能
-- TEST: 增删改一个单元测试
-- CHORE: 框架升级、Jar包引用增删改等
+- FEAT: Add, delete or modify a feature
+- FIX: Fix a bug
+- DOCS: Add, delete or modify documentation
+- STYLE: Code beautification or other code modifications that do not affect functionality
+- REFACTOR: Refactor a feature
+- PERF: Optimize a feature
+- TEST: Add, delete or modify a unit test
+- CHORE: Framework upgrade, addition/deletion/modification of JAR references, etc.
 
 ## Acknowledgments
 
@@ -77,7 +77,7 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Auto Update
 
-This repository automatically updates the hosts file every 4 hours.
+This repository automatically updates the hosts file every 8 hours.
 
 ## Star History
 
