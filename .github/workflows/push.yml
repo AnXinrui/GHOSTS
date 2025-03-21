@@ -21,4 +21,11 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Run Application
-      run: java -jar target/ghosts-1.0-SNAPSHOT.jar 
+      run: java -jar target/ghosts-1.0-SNAPSHOT.jar
+
+    - name: Commit changes
+      run: |
+        git config --local user.name "${{ github.actor }}"
+        git add README.md
+        git commit -m "chore: auto update README.md with latest changes" || exit 0
+        git push 
